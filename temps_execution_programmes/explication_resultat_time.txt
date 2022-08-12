@@ -1,0 +1,19 @@
+Problème 1:
+
+La commande unix time affiche trois paramètre:
+
+Le premier est le paramètre "real" qui est le temps réel que met une commande ou bien un exécutable à se lancer.
+Dans notre cas, la temps émis est de 8µs.
+
+Le deuxième paramètre, "user" permet de savoir en combien de temps la commande a t-elle été éxécuté en processeur
+Ici, il est de 6 µs
+
+Le troisième paramètre "sys" permet de savoir la même chose que le deuxième 
+sauf que la commande ou l'éxécutable sera éxécuter dans le noyau du système d'exploitation
+Ici, le temps émis est de 0s.
+
+
+Problème 2:
+
+Pour le second problème on remarque selement que le temps d'éxécution en processeur
+est plus long de 2µs que le premier problème.
